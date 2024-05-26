@@ -1,0 +1,14 @@
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\bin\Debug\net8.0\pleaseWork.exe
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\bin\Debug\net8.0\pleaseWork.deps.json
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\bin\Debug\net8.0\pleaseWork.runtimeconfig.json
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\bin\Debug\net8.0\pleaseWork.dll
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\bin\Debug\net8.0\pleaseWork.pdb
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.AssemblyInfoInputs.cache
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.AssemblyInfo.cs
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.csproj.CoreCompileInputs.cache
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.dll
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\refint\pleaseWork.dll
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.pdb
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.genruntimeconfig.cache
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\ref\pleaseWork.dll
