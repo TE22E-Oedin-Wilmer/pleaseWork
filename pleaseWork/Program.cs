@@ -6,11 +6,11 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args)   // Main metoden som körs fråmn början. Kör också båda loop-metoderna.
     {
-        Console.WriteLine("Tärningskastsimulator med både while och for loop nedan:");
+        Console.WriteLine("50/50 Skottsimulation med både while och for loop nedan:"); // Text
         Console.WriteLine("Tryck [ENTER] för att gå vidare.");
-        Console.ReadLine();
+        Console.ReadLine();   // Readline tvingar en att trycka [ENTER] för att fortsätta.
 
 
         // Anropa metod med en while-loop
@@ -19,7 +19,7 @@ class Program
         // Anropa metod med en for-loop
         ForLoop();
 
-        Console.WriteLine("Tryck [ENTER] för att avsluta.");
+        Console.WriteLine("Tryck [ENTER] för att avsluta.");   // Mer text samt en readline som fungerar som stopp.
         Console.ReadLine();
     }
 
@@ -28,15 +28,24 @@ class Program
     // Metod med while-loop
     static void WhileLoop()
     {
-        Random generator = new Random();
+        Random generator = new Random();    //   RNG
 
-        Console.WriteLine("Simulering med while-loop:");
-        int kastNummer = 1;
-        while (kastNummer <= 5)
+        Console.WriteLine("Simulering med while-loop:");     // Text
+        int skottNummer = 1;                                 // Vilket skott man är på (variabel)
+        while (skottNummer <= 5)                             // While loop
         {
-            int tärningskast = generator.Next(1, 7); // Random tal mellan 1 och 6
-            Console.WriteLine($"Kast {kastNummer}: {tärningskast}");
-            kastNummer++;
+            int träff = generator.Next(1, 11);               // Random tal mellan 1 och 10
+            if (träff < 6)                                   // Om du träffar mindre än 6 (aka 5 och neråt) missar du
+            {
+                Console.WriteLine($"Skott {skottNummer}: MISS");
+            }
+
+            else if (träff > 5)                              // Om du träffar mer än 5 (aka 6 och uppåt) träffar du
+            {
+                Console.WriteLine($"Skott {skottNummer}: TRÄFF");
+            }
+
+            skottNummer++;                                   // Skottnummret går upp efter varje skott och du behöver trycka [ENTER] för att gå vidare
             Console.ReadLine();
         }
 
@@ -45,14 +54,22 @@ class Program
     // Metod med for-loop
     static void ForLoop()
     {
-        Random generator = new Random();
+        Random generator = new Random();                    // RNG
 
-        Console.WriteLine("Simulering med for-loop:");
-        for (int L = 1; L <= 5; L++)
+        Console.WriteLine("Simulering med for-loop:");      // Text
+        for (int L = 1; L <= 5; L++)                        // For loop som repeteras 5 gånger
         {
-            int tärningskast = generator.Next(1, 7); // Random tal mellan 1 och 6
-            Console.WriteLine($"Kast {L}: {tärningskast}");
-            Console.ReadLine();
+            int träff = generator.Next(1, 11);              // Random tal mellan 1 och 10
+           if (träff < 6)                                   // Om du träffar mindre än 6 (aka 5 och neråt) missar du
+            {
+                Console.WriteLine($"Skott {L}: MISS");
+            }
+
+            else if (träff > 5)                            // Om du träffar mer än 5 (aka 6 och uppåt) träffar du
+            {
+                Console.WriteLine($"Skott {L}: TRÄFF");
+            }
+            Console.ReadLine();                            // Kräver att du trycker [ENTER] för att fortsätta
         }
     }
 
