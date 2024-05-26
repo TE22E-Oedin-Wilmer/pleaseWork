@@ -12,3 +12,4 @@ C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\refint\pleaseWork.dl
 C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.pdb
 C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.genruntimeconfig.cache
 C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\ref\pleaseWork.dll
+C:\Users\wilmer.odin\pleaseWork\pleaseWork\obj\Debug\net8.0\pleaseWork.sourcelink.json
